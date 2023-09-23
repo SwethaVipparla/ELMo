@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[==================================================] 100.0% 252.1/252.1MB downloaded
+(59352, 200)
+Traceback (most recent call last):
+  File "/tmp/ipykernel_6060/2507743021.py", line 7, in random_search
+    train_loss, val_loss = train(cfg.optimizer, cfg.embedding_dimension, cfg.hidden_dimension, cfg.dropout_rate, cfg.learning_rate)
+  File "/tmp/ipykernel_6060/1851690653.py", line 9, in train
+    model = mdl.ELMO(embedding_matrix(word_to_ix, glove_vectors), len(word_to_ix), hidden_dimension, dropout_rate)
+  File "/home2/swethavipparla/anlp/Assignments/A2/elmo_model.py", line 9, in __init__
+    self.embedding = nn.Embedding.from_pretrained(embedding_matrix, freeze=False)
+  File "/home2/swethavipparla/miniconda3/envs/anlp/lib/python3.10/site-packages/torch/nn/modules/sparse.py", line 210, in from_pretrained
+    assert embeddings.dim() == 2, \
+AttributeError: 'numpy.ndarray' object has no attribute 'dim'. Did you mean: 'ndim'?

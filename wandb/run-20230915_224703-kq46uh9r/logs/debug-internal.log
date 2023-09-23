@@ -1,0 +1,63 @@
+2023-09-15 22:47:03,887 INFO    StreamThr :9509 [internal.py:wandb_internal():86] W&B internal server running at pid: 9509, started at: 2023-09-15 22:47:03.886520
+2023-09-15 22:47:03,889 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: status
+2023-09-15 22:47:03,907 INFO    WriterThread:9509 [datastore.py:open_for_write():85] open: /home2/swethavipparla/anlp/Assignments/A2/wandb/run-20230915_224703-kq46uh9r/run-kq46uh9r.wandb
+2023-09-15 22:47:03,909 DEBUG   SenderThread:9509 [sender.py:send():379] send: header
+2023-09-15 22:47:03,911 DEBUG   SenderThread:9509 [sender.py:send():379] send: run
+2023-09-15 22:47:04,804 INFO    SenderThread:9509 [dir_watcher.py:__init__():211] watching files in: /home2/swethavipparla/anlp/Assignments/A2/wandb/run-20230915_224703-kq46uh9r/files
+2023-09-15 22:47:04,804 INFO    SenderThread:9509 [sender.py:_start_run_threads():1121] run started: kq46uh9r with start time 1694798223.888498
+2023-09-15 22:47:04,823 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: check_version
+2023-09-15 22:47:04,824 DEBUG   SenderThread:9509 [sender.py:send_request():406] send_request: check_version
+2023-09-15 22:47:04,998 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: run_start
+2023-09-15 22:47:05,560 DEBUG   HandlerThread:9509 [system_info.py:__init__():32] System info init
+2023-09-15 22:47:05,560 DEBUG   HandlerThread:9509 [system_info.py:__init__():47] System info init done
+2023-09-15 22:47:05,560 INFO    HandlerThread:9509 [system_monitor.py:start():181] Starting system monitor
+2023-09-15 22:47:05,560 INFO    SystemMonitor:9509 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-15 22:47:05,562 INFO    HandlerThread:9509 [system_monitor.py:probe():201] Collecting system info
+2023-09-15 22:47:05,562 INFO    SystemMonitor:9509 [interfaces.py:start():190] Started cpu monitoring
+2023-09-15 22:47:05,563 INFO    SystemMonitor:9509 [interfaces.py:start():190] Started disk monitoring
+2023-09-15 22:47:05,564 INFO    SystemMonitor:9509 [interfaces.py:start():190] Started gpu monitoring
+2023-09-15 22:47:05,565 INFO    SystemMonitor:9509 [interfaces.py:start():190] Started memory monitoring
+2023-09-15 22:47:05,566 INFO    SystemMonitor:9509 [interfaces.py:start():190] Started network monitoring
+2023-09-15 22:47:05,611 DEBUG   HandlerThread:9509 [system_info.py:probe():196] Probing system
+2023-09-15 22:47:05,613 DEBUG   HandlerThread:9509 [gitlib.py:_init_repo():53] git repository is invalid
+2023-09-15 22:47:05,613 DEBUG   HandlerThread:9509 [system_info.py:probe():244] Probing system done
+2023-09-15 22:47:05,613 DEBUG   HandlerThread:9509 [system_monitor.py:probe():210] {'os': 'Linux-4.15.0-210-generic-x86_64-with-glibc2.27', 'python': '3.10.12', 'heartbeatAt': '2023-09-15T17:17:05.611409', 'startedAt': '2023-09-15T17:17:03.861656', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'gnode023', 'username': 'swethavipparla', 'executable': '/home2/swethavipparla/miniconda3/envs/anlp/bin/python', 'cpu_count': 20, 'cpu_count_logical': 40, 'cpu_freq': {'current': 2.2188, 'min': 1200.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 1.201, 'min': 1200.0, 'max': 3400.0}, {'current': 1.423, 'min': 1200.0, 'max': 3400.0}, {'current': 1.914, 'min': 1200.0, 'max': 3400.0}, {'current': 1.458, 'min': 1200.0, 'max': 3400.0}, {'current': 1.201, 'min': 1200.0, 'max': 3400.0}, {'current': 2.78, 'min': 1200.0, 'max': 3400.0}, {'current': 2.781, 'min': 1200.0, 'max': 3400.0}, {'current': 2.78, 'min': 1200.0, 'max': 3400.0}, {'current': 2.782, 'min': 1200.0, 'max': 3400.0}, {'current': 2.782, 'min': 1200.0, 'max': 3400.0}, {'current': 2.81, 'min': 1200.0, 'max': 3400.0}, {'current': 2.81, 'min': 1200.0, 'max': 3400.0}, {'current': 2.81, 'min': 1200.0, 'max': 3400.0}, {'current': 2.81, 'min': 1200.0, 'max': 3400.0}, {'current': 2.81, 'min': 1200.0, 'max': 3400.0}, {'current': 1.2, 'min': 1200.0, 'max': 3400.0}, {'current': 2.099, 'min': 1200.0, 'max': 3400.0}, {'current': 1.202, 'min': 1200.0, 'max': 3400.0}, {'current': 1.256, 'min': 1200.0, 'max': 3400.0}, {'current': 1.589, 'min': 1200.0, 'max': 3400.0}, {'current': 1.2, 'min': 1200.0, 'max': 3400.0}, {'current': 1.479, 'min': 1200.0, 'max': 3400.0}, {'current': 1.893, 'min': 1200.0, 'max': 3400.0}, {'current': 1.547, 'min': 1200.0, 'max': 3400.0}, {'current': 1.369, 'min': 1200.0, 'max': 3400.0}, {'current': 2.792, 'min': 1200.0, 'max': 3400.0}, {'current': 2.793, 'min': 1200.0, 'max': 3400.0}, {'current': 2.792, 'min': 1200.0, 'max': 3400.0}, {'current': 2.794, 'min': 1200.0, 'max': 3400.0}, {'current': 2.795, 'min': 1200.0, 'max': 3400.0}, {'current': 2.82, 'min': 1200.0, 'max': 3400.0}, {'current': 2.821, 'min': 1200.0, 'max': 3400.0}, {'current': 2.821, 'min': 1200.0, 'max': 3400.0}, {'current': 2.822, 'min': 1200.0, 'max': 3400.0}, {'current': 2.823, 'min': 1200.0, 'max': 3400.0}, {'current': 1.2, 'min': 1200.0, 'max': 3400.0}, {'current': 2.34, 'min': 1200.0, 'max': 3400.0}, {'current': 1.2, 'min': 1200.0, 'max': 3400.0}, {'current': 1.237, 'min': 1200.0, 'max': 3400.0}, {'current': 1.434, 'min': 1200.0, 'max': 3400.0}], 'disk': {'/': {'total': 136.48257064819336, 'used': 93.1539192199707}}, 'gpu': 'NVIDIA GeForce GTX 1080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 125.78684616088867}}
+2023-09-15 22:47:05,613 INFO    HandlerThread:9509 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-15 22:47:05,613 INFO    HandlerThread:9509 [system_monitor.py:probe():214] Publishing system info
+2023-09-15 22:47:05,613 DEBUG   HandlerThread:9509 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-09-15 22:47:05,614 DEBUG   HandlerThread:9509 [system_info.py:_save_pip():68] Saving pip packages done
+2023-09-15 22:47:05,614 DEBUG   HandlerThread:9509 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-09-15 22:47:05,808 INFO    Thread-12 :9509 [dir_watcher.py:_on_file_created():271] file/dir created: /home2/swethavipparla/anlp/Assignments/A2/wandb/run-20230915_224703-kq46uh9r/files/conda-environment.yaml
+2023-09-15 22:47:05,808 INFO    Thread-12 :9509 [dir_watcher.py:_on_file_created():271] file/dir created: /home2/swethavipparla/anlp/Assignments/A2/wandb/run-20230915_224703-kq46uh9r/files/requirements.txt
+2023-09-15 22:47:08,440 DEBUG   HandlerThread:9509 [system_info.py:_save_conda():87] Saving conda packages done
+2023-09-15 22:47:08,442 INFO    HandlerThread:9509 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-15 22:47:08,449 DEBUG   SenderThread:9509 [sender.py:send():379] send: files
+2023-09-15 22:47:08,449 INFO    SenderThread:9509 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-15 22:47:08,478 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 22:47:08,478 DEBUG   SenderThread:9509 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 22:47:08,478 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 22:47:08,808 INFO    Thread-12 :9509 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/swethavipparla/anlp/Assignments/A2/wandb/run-20230915_224703-kq46uh9r/files/conda-environment.yaml
+2023-09-15 22:47:08,809 INFO    Thread-12 :9509 [dir_watcher.py:_on_file_created():271] file/dir created: /home2/swethavipparla/anlp/Assignments/A2/wandb/run-20230915_224703-kq46uh9r/files/wandb-metadata.json
+2023-09-15 22:47:08,904 DEBUG   SenderThread:9509 [sender.py:send():379] send: telemetry
+2023-09-15 22:47:08,904 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 22:47:09,564 INFO    wandb-upload_0:9509 [upload_job.py:push():131] Uploaded file /tmp/tmpqbi_4vdwwandb/vmdb0un5-wandb-metadata.json
+2023-09-15 22:47:13,905 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 22:47:18,906 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 22:47:23,485 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 22:47:23,486 DEBUG   SenderThread:9509 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 22:47:23,529 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 22:47:24,805 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 22:47:29,805 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 22:47:34,812 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 22:47:35,844 INFO    Thread-12 :9509 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/swethavipparla/anlp/Assignments/A2/wandb/run-20230915_224703-kq46uh9r/files/config.yaml
+2023-09-15 22:47:36,845 INFO    Thread-12 :9509 [dir_watcher.py:_on_file_created():271] file/dir created: /home2/swethavipparla/anlp/Assignments/A2/wandb/run-20230915_224703-kq46uh9r/files/output.log
+2023-09-15 22:47:38,477 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 22:47:38,477 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 22:47:38,478 DEBUG   SenderThread:9509 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 22:47:38,847 INFO    Thread-12 :9509 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home2/swethavipparla/anlp/Assignments/A2/wandb/run-20230915_224703-kq46uh9r/files/output.log
+2023-09-15 22:47:40,818 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 22:47:45,819 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 22:47:50,820 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 22:47:53,484 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 22:47:53,484 DEBUG   HandlerThread:9509 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 22:47:53,485 DEBUG   SenderThread:9509 [sender.py:send_request():406] send_request: stop_status

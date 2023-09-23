@@ -1,0 +1,12 @@
+wandb_version: 1
+
+dropout_rate:
+  value: 0.4
+embedding_dimension:
+  value: 200
+hidden_dimension:
+  value: 100
+learning_rate:
+  value: 0.01
+optimizer:
+  value: RMSprop

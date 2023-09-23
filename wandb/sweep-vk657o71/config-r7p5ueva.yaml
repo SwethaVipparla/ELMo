@@ -1,0 +1,12 @@
+wandb_version: 1
+
+dropout_rate:
+  value: 0.4
+embedding_dimension:
+  value: 50
+hidden_dimension:
+  value: 500
+learning_rate:
+  value: 0.01
+optimizer:
+  value: Adam
