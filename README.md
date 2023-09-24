@@ -17,7 +17,7 @@ The entire code is split into 5 files, which have different purposes.
 - `downstream_model.py`
     Contains the code for the downstream classification task model. This class obtains the hidden and cell states from the forward and the backward LSTMs in the ELMo model. These are then concatenated and each concatenated vector is multiplied with delta values. The products are summed and fed to a linear layer that has a softmax activation layer.
 
-- `elmo_downstream.py`
+- `train_test.py`
     Contains the code for pre-training the elmo and training and testing the downstream model. Both the models are trained for the optimal number of epochs using early stopping technique. Multiple delta values are tested for analysing the model performance.
     The entire sweep can be viewed on the wandb console.
 
@@ -35,7 +35,7 @@ Make sure the following dependencies are installed:
 The code can be run by executing the following command:
 
 ```bash
-python elmo_downstream.py
+python train_test.py
 ```
 
 ### Best Model
