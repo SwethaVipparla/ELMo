@@ -49,3 +49,9 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+# extras
+best_downstream_model.pth
+best_elmo_model.pth
+ANLP2.pth
+elmoc.ipynb

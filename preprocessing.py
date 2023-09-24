@@ -28,4 +28,3 @@ def preprocess(csv):
 
 train_df = preprocess('train.csv')
 test_df = preprocess('test.csv')
-# df['Description'] = df['Description'].apply(lambda x: ['<sos>'] + x + ['<eos>'])
